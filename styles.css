@@ -452,7 +452,7 @@ img {
   display: grid;
   place-items: center;
   margin-inline: 1.5rem;
-  padding-block: 5rem;
+  padding-block: 1rem;
 }
 
 .card__container {
@@ -569,8 +569,12 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
+  section.show-animation{
+    padding: 0px ;
+  }
   .tcontainer {
     margin-inline: 1rem;
+    padding: 10px;
   }
 
   .card__data {
@@ -620,6 +624,8 @@ img {
 section.show-animation .promo{
 
   transform: translateX(0);
+  
+
 }
 .promo h2{
     line-height: 95%;
@@ -709,13 +715,30 @@ section.show-animation .promo{
 .promo {
   height: auto;
   flex-wrap: wrap;
+  transform: translateX(0);
+  padding: 5px 5px;
+  align-items: center;
+  justify-content: center;
 }
 .promo .left,.right{
 
   width: 100%;
+  animation: none;
+  transform: translateX(0);
+  padding: 0px;
+  margin: 0px;
 }
 
+section.animated-section.show-animation{
 
+
+  padding: 10px;
+  
+
+}
+section.show-animation .promo {
+text-align: center;
+}
 
 
 }
