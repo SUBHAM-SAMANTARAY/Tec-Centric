@@ -241,3 +241,18 @@ document.addEventListener('DOMContentLoaded', function() {
 //     // serviceHeading.style.transition = "none";
 //   }
 // });
+
+
+const cardContainer = document.querySelector('.team-member');
+const cardWidth = document.querySelector('.team-card').offsetWidth + 20; // Adjust margin as needed
+let scrollPosition = 0;
+
+function scrollCards() {
+    scrollPosition += cardWidth;
+    if (scrollPosition > cardContainer.scrollWidth - cardContainer.offsetWidth) {
+        scrollPosition = 0;
+    }
+    cardContainer.scrollLeft = scrollPosition;
+}
+
+setInterval(scrollCards, 1000); // Adjust the interval as needed (in millise

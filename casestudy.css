@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+
 .casestudy{
     display: flex;
     height: auto;
@@ -21,8 +24,9 @@ section.show-animation .casestudy .left{
 
 .casestudy .left h2{
     font-size: 30px;
-    color: black;
+    color: rgb(23,40,82);;
     line-height: 120%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .casestudy .right{
 
@@ -37,7 +41,8 @@ section.show-animation .casestudy .left{
 }
 .casestudy .left a{
     text-decoration: none;
-    color: orange;
+    color: darkorange;
+    font-weight: bold;
 }
 .casestudy .right .card2{
     height: auto;
@@ -60,7 +65,7 @@ section.show-animation   .casestudy .right .card2{
 
 }
 .card2 h4,p,img{
-    margin-bottom: 0px;
+    margin: 5px 0px;
     
 }
 .card2:nth-child(2){
@@ -68,7 +73,8 @@ section.show-animation   .casestudy .right .card2{
 }
 .card2 h4{
     font-size: larger;
-    color: black;
+    color:rgb(23,40,82);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  @media screen and (max-width: 760px){
@@ -78,7 +84,13 @@ section.show-animation   .casestudy .right .card2{
     flex-wrap: wrap;
     width: 100%;
     margin: 5px;
-    padding: 0px 0px;
+    padding: 0px 20px;
+
+}
+
+.casestudy .left h2{
+    font-size: 25px;
+ 
 }
 
 .casestudy .left,.right{
@@ -93,7 +105,7 @@ section.show-animation   .casestudy .right .card2{
 
 width: 100%;
 flex-wrap: wrap;
-padding: 0px 20px
+padding: 20px 0px
 
 }
 
@@ -101,6 +113,7 @@ padding: 0px 20px
     width: 100%;
     transform: translateX(0);
     transition: 1s;
+    margin: 15px 0px;
     
 
 }
@@ -113,7 +126,10 @@ padding: 0px 20px
     margin-left: 0px;
 }
 
-
+.card2 h4,p,img{
+    margin: 5px 0px;
+    
+}
  }
 
  
