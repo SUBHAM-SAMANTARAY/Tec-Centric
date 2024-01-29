@@ -129,7 +129,7 @@ color: #000;
 }
 
 .login-button:hover{
-    background-color: rgb(25,29,136);
+    background-color: rgb(23,40,82);;
     color: #ffffff;
     background-position: 0 100%;
 }
@@ -141,7 +141,7 @@ color: #000;
     bottom: 0;
     height: 3px;
     width: 0%;
-    background-color: rgb(25,29,136);
+    background-color:orange;
     transition: all ease 1s;
 
 }
@@ -370,7 +370,7 @@ color: #000;
 
 .navx .nav-button button:hover{
     
-    background-color:#1D212B ;
+    background-color:rgb(23,40,82); ;
     color: #ffffff;
 }
 
@@ -630,6 +630,7 @@ section.show-animation .promo{
 .promo h2{
     line-height: 95%;
     font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -716,9 +717,18 @@ section.show-animation .promo{
   height: auto;
   flex-wrap: wrap;
   transform: translateX(0);
-  padding: 5px 5px;
+  padding: 20px 5px;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.promo .left p,h2,h5{
+  text-align: center;
+  margin: 10px 0px;
+}
+.promo .left p{
+  text-align: center;
 }
 .promo .left,.right{
 
@@ -726,8 +736,16 @@ section.show-animation .promo{
   animation: none;
   transform: translateX(0);
   padding: 0px;
-  margin: 0px;
+  margin: 10px 0px;
+  
 }
+
+.promo h2{
+  font-size: x-large;
+line-height: 30px;
+
+}
+
 
 section.animated-section.show-animation{
 

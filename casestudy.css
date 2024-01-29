@@ -38,6 +38,7 @@ section.show-animation .casestudy .left{
 }
 .casestudy .left p,h2,a{
     margin-bottom: 30px;
+    
 }
 .casestudy .left a{
     text-decoration: none;
@@ -66,6 +67,7 @@ section.show-animation   .casestudy .right .card2{
 }
 .card2 h4,p,img{
     margin: 5px 0px;
+    text-align: left;
     
 }
 .card2:nth-child(2){
@@ -90,6 +92,7 @@ section.show-animation   .casestudy .right .card2{
 
 .casestudy .left h2{
     font-size: 25px;
+      text-align: left;
  
 }
 
